@@ -1,0 +1,26 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  padding: 96px 244px;
+}
+
+.header__tag {
+  color: var(--vermelho);
+  font-weight: 600;
+}
+
+.header__titulo {
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--azul-escuro);  
+}
+
+.header__texto {
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+  width: 790px;
+}

@@ -1,0 +1,28 @@
+.metricas {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+}
+
+.metricas__item {
+  width: 280px;
+}
+
+.metricas__titulo {
+  font-weight: 600;
+  color: var(--vermelho);
+  font-size: 60px;
+}
+
+.metricas__subtitulo {
+  font-weight: 500;
+  color: var(--azul-escuro);
+  font-size: 18px;
+  margin: 12px 0 8px 0;
+}
+
+.metricas__texto {
+  font-weight: 400;
+  color: var(--cinza);
+  line-height: 24px;
+}

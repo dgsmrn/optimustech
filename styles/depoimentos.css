@@ -1,0 +1,44 @@
+.depoimentos {
+  margin: 0 auto 96px;
+  padding: 64px;
+  text-align: center;
+  background-color: rgba(195, 25, 25, 0.03);
+  border-radius: 16px;
+  width: 1216px;
+}
+
+.depoimentos__tag {
+  font-size: 14px;
+  color: var(--vermelho);
+  font-weight: 600;
+}
+
+.depoimentos__titulo {
+  font-size: 36px;
+  margin-top: 16px;
+  color: var(--azul-escuro);
+  font-weight: 500;
+  line-height: 44px;
+}
+
+.depoimento__autor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.autor__foto {
+  width: 56px;
+  margin-bottom: 16px;
+}
+
+.autor__nome {
+  color: var(--azul-escuro);
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.autor__cargo {
+  font-size: 14px;
+}

@@ -1,0 +1,42 @@
+.footer {
+  background-color: var(--cinza-fundo);
+  padding: 96px 0 96px 0;
+  text-align: center;  
+}
+
+.footer__titulo {
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--azul-escuro);
+  margin-bottom: 20px;
+}
+
+.footer__texto {
+  font-size: 20px;
+  margin-bottom: 40px;
+}
+
+.footer__form {
+  margin-bottom: 32px;
+}
+
+.footer__form input {
+  border-radius: 8px;
+  padding: 12px 14px 12px 16px;
+  border: 1px solid var(--borda-input);
+  width: 360px;
+}
+
+.footer__form button {
+  background-color: var(--vermelho);
+  border: 1px solid var(--vermelho);
+  padding: 10px 18px;
+  border-radius: 8px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.footer__copyright {
+  color: var(--cinza-copy);
+}
